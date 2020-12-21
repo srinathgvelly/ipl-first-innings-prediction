@@ -62,6 +62,3 @@ regressor.fit(X_train,y_train)
 # Creating a pickle file for the classifier
 filename = 'first-innings-score-lr-model.pkl'
 pickle.dump(regressor, open(filename, 'wb'))
-
-# Loading model to compare the results
-model = pickle.load(open('first-innings-score-lr-model.pkl','rb'))

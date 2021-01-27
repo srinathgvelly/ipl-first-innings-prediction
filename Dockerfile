@@ -1,3 +1,3 @@
 FROM ubuntu:latest
-copy ipl-first-innings-prediction / ipl-first-innings-prediction
+COPY ipl-first-innings-prediction / ipl-first-innings-prediction
 CMD /bin/bash

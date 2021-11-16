@@ -1,2 +1,5 @@
-FROM ubuntu:latest
-copy ipl-first-innings-prediction / ipl-first-innings-prediction
+FROM python3
+COPY . .
+
+RUN pip3 install requirements.txt
+CMD ["python3",]
